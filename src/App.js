@@ -49,7 +49,7 @@ const Preinterview = ( props ) => {
               interviewjson[props.num].map(function(value, index){
                   //this조심할것
                   return(
-                    <li  key={'interview'+index}>
+                    <li key={'interview'+index}>
                       <strong className='d-block border-bottom py-2 ' role="button" onClick={ e => { console.log( e.target.nextSibling.classList.toggle('d-none') ) }}>{value.subject}</strong>
                       <p className='py-5 d-none'>{value.content}</p>
                     </li>
