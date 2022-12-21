@@ -5,30 +5,10 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
+import workswiper from "../json/swiper.json";
+
 const Worksswiper = () => {
-    const swiperinfo = [
-        {
-        worktitle : '리액트광고웹앱',
-        worktime : '4주',
-        co : '단독작업',
-        app : ['illust','photoshop','v-code'],
-        cls : 'react'
-    },
-    {
-        worktitle : '부트스트랩 퍼블리싱',
-        worktime : '1주',
-        co : '단독작업',
-        app : ['v-code'],
-        cls : 'boot'
-    },
-    {
-        worktitle : 'CMS 그누보드',
-        worktime : '4주',
-        co : '단독작업',
-        app : ['illust','photoshop','v-code'],
-        cls : 'sir'
-    }
-];
+    const swiperinfo = workswiper.swiperDB;
 
     return(
         <Swiper className='workSection'
