@@ -5,10 +5,10 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-import workswiper from "../json/swiper.json";
+import dbswiper from "../json/db.json";
 
-const Worksswiper = () => {
-    const swiperinfo = workswiper.swiperDB;
+const Portfolioswiper = ( props ) => {
+    const swiperinfo = dbswiper[props.leng].swiperDB;
 
     return(
         <Swiper className='workSection'
@@ -38,4 +38,4 @@ const Worksswiper = () => {
     )
 }
 
-export default Worksswiper;
+export default Portfolioswiper;

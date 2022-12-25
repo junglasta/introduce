@@ -1,6 +1,6 @@
 import Header from './component/Hd';
 import Footer from './component/Ft';
-import Worksswiper from './component/Worksswiper';
+import Portfolioswiper from './component/Portfolioswiper';
 import Preinterview from './component/Preinterview';
 import Ability from './component/Ability';
 import About from './component/About';
@@ -13,7 +13,7 @@ function App() {
       <Header></Header>
       <Ability></Ability>
       <About></About>
-      <Worksswiper></Worksswiper>
+      <Portfolioswiper leng="kr"></Portfolioswiper>
       <Preinterview contentid="pre-interview" leng="kr" objnm="predb1" title="먼저 답하기"></Preinterview>
       <Contact></Contact>
       <Thumbimg></Thumbimg>
