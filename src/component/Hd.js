@@ -44,7 +44,7 @@ function Header( props ){
               console.log( gnbclass );
           }}>햄버거</button>
 
-          <Navi />        
+          <Navi leng="kr"/>        
         </header>
     )
   }
